@@ -69,10 +69,12 @@
     flex-wrap:wrap;
     width: 400px;
     margin-top: 10px;
+
 }
 .button1{
     background-color: rgb(104, 104, 255);    
     border-radius: 5px;
+    color: white;
 }
 .container3{
     background-color: white;
@@ -97,6 +99,9 @@
     flex-direction: column;
     flex-wrap:wrap;
     padding:20px;
+}
+.subtext{
+    font-size: small;
 }
 .container4{
     display: flex;
@@ -125,4 +130,42 @@
 .quote2{
     font-size:20px;
     align-self: flex-end;
+}
+.container5{
+    justify-content: center; 
+    padding: 10%;
+}
+.menu4{
+    background-color: rgb(100, 143, 254);
+    display:flex;
+    flex-direction:row;
+    border: 5px;  
+    justify-content: space-around;
+    border-radius: 5px;
+}
+.item2{
+    display: flex;
+    flex-direction: column;
+    font-size:x-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.item3{
+    font-size: medium;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.item4{
+    display: flex;
+    justify-items: center;
+}
+.button2{
+    display: flex;
+    flex-wrap:wrap;
+    width: 100px;
+    align-self: center;
+    border-radius: 5px;
+    justify-content: center;
+
+
 }
